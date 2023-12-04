@@ -543,11 +543,88 @@ a{
 .meta>div a {
     color: gray;
 }
-/* Pay */
-.pay-section{
 
-    padding: 80px 0;
+
+
+
+/* Pay Section */
+.pay-section{
+    padding: 60px 0;
 }
+.pay-section-main{
+    background-color: #f8f6f6;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 30px 0;
+}
+.pay-sumary{
+    padding: 20px;
+    border: 1px solid #dfa974 !important;
+    box-shadow: 2px 5px 4px 2px rgba(0, 0, 0, 0.3);
+    max-height: 810px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 560px;
+}
+.pay-sumary form{
+    padding: 10px 20px;
+}
+.pay-sumary label{
+    margin: 7px 5px !important;
+    font-weight: 500;
+}
+
+.pay-sumary input{
+    max-width: 700px;
+    border: 1px solid #dfa974 !important;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 40px;
+}
+.pay-sumary textarea{
+    border: 1px solid #dfa974 !important;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    max-width: 700px;
+}
+.pay-sumary input:focus{
+    border-color: #66afe9 !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+    border: solid #4795d5;
+    margin: 0 auto;
+}
+.pay-sumary textarea{
+    height: 250px;
+}
+.pay-sumary textarea:focus{
+    border-color: #66afe9 !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: none;
+    border: solid #428ac5;
+}
+.submit-pay{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #dfa974;
+    color: white;
+    border: none;
+    margin-top: 40px;
+}
+.submit-pay:hover{
+    background-color: #4795d5;
+}
+/* Pay Section */
+
+
+
+/* Gallery  */
 .gallery-item:hover:after {
     opacity: 1;
 
@@ -573,6 +650,11 @@ a{
     transition: all 0.3s;
     opacity: 0;
 }
+/* Gallery  */
+
+
+
+
 
 .large-item {
     height: 576px;
@@ -1081,12 +1163,15 @@ a{
 
 
 .table{
-    width: 350px;
+    max-width: 500px;
+    max-height: 700px;
     border-radius: 5px;
     box-shadow: 10px #393D4A;
-    border: 1px solid #ccc;
+    border: 2px solid #dfa974;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.4);
     margin: 20px auto;
     position: relative;
+    background-color: white;
     
 }
 .table a{
@@ -1096,15 +1181,7 @@ a{
 .rom-detail{
     padding: 30px 5px;
 }
-.pay-sumary{
-    padding: 20px;
-}
-.pay-sumary label{
-    margin: 7px 5px !important;
-}
-.pay-sumary form{
-    padding: 0 20px;
-}
+
 .rom-detail p{
     margin: 0 !important;
  
@@ -1121,34 +1198,8 @@ a{
     background-size: cover;
     background-position: top center;
 }
-.pay-sumary input{
-    max-width: 500px;
 
-}
-.pay-sumary input:focus{
-    border-color: #66afe9 !important;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    outline: none;
-    border: solid #4795d5;
-}
-.pay-sumary textarea{
-    height: 150px;
-}
-.pay-sumary textarea:focus{
-    border-color: #66afe9 !important;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    outline: none;
-    border: solid #428ac5;
-}
-.submit-pay{
-    margin: 7px;
-    width: 200px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: #dfa974;
-    color: white;
-    border: none;
-}
+
 .rom-detail-bottom{
     bottom: 20px;
     position: absolute;
